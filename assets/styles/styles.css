@@ -1,0 +1,172 @@
+*{
+    min-width: 0;
+    min-height: 0;
+}
+body{
+    background-color: #f3e5d7;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin: 0;
+    align-items: left;
+    text-align: left;
+    margin-top: 84px;
+    margin-bottom: 84px;
+}
+
+.card img{
+    width: auto;
+    height: 312px;
+    margin: 0;
+    border-radius: 10px;
+    margin: 34px;
+}
+
+.header-text{
+        font-family: "Young Serif", serif;
+        color: hsl(24, 5%, 18%);
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 40px;
+        margin-left: 34px;
+        
+}
+
+.card p{
+    font-size: 16px;
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
+    margin-left: 34px;
+    margin-right: 40px;
+    
+
+}
+
+.prep-text{
+    font-size: 24px;
+    font-family: "Outfit", serif;
+    color: hsl(332, 51%, 32%);
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.time-box{
+    
+    background-color: hsl(330, 100%, 98%);
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.time-prep{
+
+    font-size: 16px;
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
+    padding: 0;
+    margin-left: 23px;
+}
+
+.time-prep li{
+    margin: 18px;
+}
+.time-prep li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.sub-text{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-left: 34px;
+    margin-top: 34px;
+}
+
+.ingre li{
+    font-size: 16px;
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
+    margin: 18px;
+}
+
+hr.solid{
+    border-top: 1px solid hsl(30, 10%, 34%);
+    margin-left: 34px;
+    margin-right: 34px;
+    opacity: 0.2;
+}
+
+.instruct li{
+    font-size: 16px;
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
+    margin: 18px;
+    margin-right: 80px;
+}
+.pair{
+    display: flex;
+    text-align: left;
+    justify-items: left;
+}
+
+.pair .value{
+    text-align: left;
+    justify-items: left;
+}
+
+table, td{
+    border-bottom: 1px solid rgb(95, 87, 78,0.2) ;
+    border-collapse: collapse;
+    margin-left: 34px;
+    margin-right: 34px;
+   
+}
+
+table, .lastone1, .lastone2{
+    border-bottom: 0;
+}
+
+.macro, .lastone1{
+    font-size: 16px;
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
+    padding: 14px;
+    padding-left: 24px;
+}
+
+.value, .lastone2{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Outfit", serif;
+    color: hsl(14, 45%, 36%);
+    padding: 14px;
+}
+
+.attribution{
+    font-size: 8px;
+    font-family: "Outfit", serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 14px;
+}
